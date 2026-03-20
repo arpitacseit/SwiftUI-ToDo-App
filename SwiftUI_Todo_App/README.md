@@ -1,0 +1,120 @@
+
+# 📱 To-Do List iOS App (SwiftUI)
+
+A modern and feature-rich To-Do List application built using SwiftUI.
+This app helps users manage daily tasks with due dates, reminders, and clean UI interactions.
+
+---
+
+## 🚀 Features
+
+* ✅ Add, edit, and delete tasks
+* 📅 Set due date **with exact time**
+* ⏰ Local notifications for reminders
+* 🔴 Overdue task highlighting
+* ✔️ Mark tasks as completed
+* 💾 Persistent storage using UserDefaults
+* 🕒 Display task **created date & time**
+* 🔔 Auto-update notifications when task changes
+* 🔴 App icon badge for overdue tasks
+
+---
+
+## 🧠 Technologies Used
+
+* Swift
+* SwiftUI
+* UserDefaults (data persistence)
+* UserNotifications (local notifications)
+* MVVM (basic structure)
+
+---
+
+## 📸 Screenshots
+
+> Add screenshots here (important for GitHub!)
+
+Example:
+
+* Task List Screen
+* Add Task with Date & Time
+* Overdue Highlight
+
+---
+
+## 🏗️ Project Structure
+
+* `ContentView.swift` → Main UI
+* `Task.swift` → Data model
+* Notification functions → Reminder handling
+* Persistence functions → Save & load tasks
+
+---
+
+## 📅 Task Model
+
+Each task contains:
+
+* Title
+* Completion status
+* Due date (optional)
+* Created date
+* Unique ID
+
+---
+
+## 🔔 Notifications
+
+* Notifications are scheduled when a task is created
+* Updated when task is edited
+* Removed when task is completed
+
+---
+
+## 🔴 Overdue Logic
+
+A task is marked overdue when:
+
+* Due date is in the past
+* Task is not completed
+
+Overdue tasks are highlighted in **red** and counted in the app badge.
+
+---
+
+## 💾 Data Persistence
+
+* Tasks are saved using `UserDefaults`
+* Data is encoded/decoded using `JSONEncoder` and `JSONDecoder`
+
+---
+
+## 🛠️ Built With
+- SwiftUI
+- Xcode
+
+## 🚀 How to Run
+1. Clone the repo
+2. Open in Xcode
+3. Run on simulator
+
+---
+
+## 📌 Future Improvements
+
+* 🔍 Search functionality
+* ☁️ Cloud sync (Firebase/iCloud)
+* 📊 Task categories & filters
+* 🎨 UI enhancements (dark mode polish)
+
+---
+
+## 👨‍💻 Author
+
+Arpita Pradhan
+
+---
+
+## ⭐️ Show Your Support
+
+If you like this project, give it a ⭐️ on GitHub!
